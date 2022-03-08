@@ -45,7 +45,7 @@
   <div class="input-group-prepend offset-1">
     <div class="input-group-text">
       <input type="radio" name="pro" aria-label="Checkbox for following text input"
-      value="1" checked="checked">先行
+      value="1" checked="checked">先攻
       <input type="radio" name="pro" aria-label="Checkbox for following text input"
       value="2">後攻
     </div>
