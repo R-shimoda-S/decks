@@ -1,0 +1,83 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class CardSpeicesTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('card_speices')->insert([
+            'card_id'=>'1',
+            'speices_id'=>'4',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'2',
+            'speices_id'=>'2',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'3',
+            'speices_id'=>'3',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'4',
+            'speices_id'=>'3',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'5',
+            'speices_id'=>'3',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'6',
+            'speices_id'=>'5',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'7',
+            'speices_id'=>'6',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'8',
+            'speices_id'=>'2',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'9',
+            'speices_id'=>'3',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'10',
+            'speices_id'=>'1',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'11',
+            'speices_id'=>'4',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'12',
+            'speices_id'=>'2',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'13',
+            'speices_id'=>'4',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'14',
+            'speices_id'=>'3',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'15',
+            'speices_id'=>'3',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'16',
+            'speices_id'=>'2',
+        ]);
+        DB::table('card_speices')->insert([
+            'card_id'=>'17',
+            'speices_id'=>'3',
+        ]);
+    }
+}

@@ -1,0 +1,14 @@
+
+.button_size{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+button{
+    display:inline-block;
+}
+.button_form div{
+    text-align:center;
+}
